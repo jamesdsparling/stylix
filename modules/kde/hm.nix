@@ -253,12 +253,12 @@ in {
         return 1
       }
 
-      if wallpaper_image="$(global_path plasma-apply-wallpaperimage)"; then
-        "$wallpaper_image" "${themePackage}/share/wallpapers/stylix"
-      else
-        verboseEcho \
-          "plasma-apply-wallpaperimage: command not found"
-      fi
+      #if wallpaper_image="$(global_path plasma-apply-wallpaperimage)"; then
+      #  "$wallpaper_image" "${themePackage}/share/wallpapers/stylix"
+      #else
+      #  verboseEcho \
+      #    "plasma-apply-wallpaperimage: command not found"
+      #fi
 
       if look_and_feel="$(global_path plasma-apply-lookandfeel)"; then
         "$look_and_feel" --apply stylix
