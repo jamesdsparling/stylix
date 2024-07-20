@@ -286,12 +286,7 @@ in {
           return 1
         }
 
-        if wallpaper_image="$(global_path plasma-apply-wallpaperimage)"; then
-          "$wallpaper_image" "${themePackage}/share/wallpapers/stylix"
-        else
-          verboseEcho \
-            "plasma-apply-wallpaperimage: command not found"
-        fi
+
       '';
     };
   };
