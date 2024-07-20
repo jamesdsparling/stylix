@@ -28,7 +28,7 @@ in {
         theme[mem_box]="${base0B}"
         theme[net_box]="${base0C}"
         theme[proc_box]="${base0D}"
-        theme[div_line]="${base01}"
+        theme[div_line]="${base0E}"
         theme[temp_start]="${base0B}"
         theme[temp_mid]="${base0A}"
         theme[temp_end]="${base08}"
